@@ -116,7 +116,7 @@ public class ContactsStepDefinition {
             this.driver.findElement(By.id("last_name")).sendKeys(data.get("last_name"));
 
             this.driver.findElement(By.id("createuser")).submit();  //save each user
-            user_clicks_New_button();               //repeates the above step
+            user_clicks_New_button();             //repeat above steps
             user_is_on_add_new_user_page();
         }
     }
