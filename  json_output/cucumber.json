@@ -1,0 +1,232 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User navigates to OpenSource page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6499729092,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the OpenSource page on URL \"https://s1.demo.opensourcecms.com/wordpress/wp-login.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://s1.demo.opensourcecms.com/wordpress/wp-login.php",
+                  "offset": 36
+                }
+              ],
+              "location": "ContactsStepDefinition.user_on_the_OpenSource_page_on_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33741082,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should see Login  message",
+            "match": {
+              "location": "ContactsStepDefinition.user_should_see_Login_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User adds multiple contacts in the User scenario",
+        "description": "",
+        "id": "add-new-users-feature;user-adds-multiple-contacts-in-the-user-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140941257,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user fills in username and password in the login page",
+            "match": {
+              "location": "ContactsStepDefinition.user_fills_in_username_and_password_in_the_login_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "opensourcecms",
+                  "opensourcecms"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4290281672,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on the Login button",
+            "match": {
+              "location": "ContactsStepDefinition.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12931074,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on home page",
+            "match": {
+              "location": "ContactsStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52810498,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user hoverovers New link",
+            "match": {
+              "location": "ContactsStepDefinition.user_clicks_New_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6988228636,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks user link",
+            "match": {
+              "location": "ContactsStepDefinition.user_is_on_add_new_user_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33332796145,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fills user details",
+            "match": {
+              "location": "ContactsStepDefinition.user_fills_contact_details_and(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "email",
+                  "first_name",
+                  "last_name"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "autogenerate1",
+                  "gina.bush101@gmail.com",
+                  "Gina",
+                  "Bush"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "autogenerate2",
+                  "gina.bush102@gmail.com",
+                  "Tim",
+                  "Robinson"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "autogenerate3",
+                  "gina.bush103@gmail.com",
+                  "Tony",
+                  "Hogan"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "autogenerate4",
+                  "gina.bush104@gmail.com",
+                  "Tang",
+                  "Bruch"
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55314977,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user presses Add New User Button",
+            "match": {
+              "location": "ContactsStepDefinition.user_presses_save_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39332981,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user hoverovers each link on the side bar",
+            "match": {
+              "location": "ContactsStepDefinition.user_hoverovers_each_link_on_the_side_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 945953712,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user closes the browser",
+            "match": {
+              "location": "ContactsStepDefinition.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add new users Feature",
+    "description": "",
+    "id": "add-new-users-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/contactsmap.feature"
+  }
+]

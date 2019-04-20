@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.392061">
+<testcase classname="Add new users Feature" name="User adds multiple contacts in the User scenario" time="52.392061">
+<system-out><![CDATA[Given User on the OpenSource page on URL "https://s1.demo.opensourcecms.com/wordpress/wp-login.php".passed
+Then user should see Login  message.........................................passed
+When user fills in username and password in the login page..................passed
+And user clicks on the Login button.........................................passed
+And user is on home page....................................................passed
+Then user hoverovers New link...............................................passed
+Then user clicks user link..................................................passed
+Then user fills user details................................................passed
+Then user presses Add New User Button.......................................passed
+Then user hoverovers each link on the side bar..............................passed
+Then user closes the browser................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
